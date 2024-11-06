@@ -1,0 +1,53 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(239, 215, 215);
+    font: sans-serif;
+}
+.box{
+    display:flex;
+    width: 50vw;
+    height: 50vh;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius:10px;
+    box-shadow:1px 1px 30px rgb(159, 158, 158) ;
+}
+
+.heading1{
+    font-size: 50px;
+    font-weight:100;
+}
+
+.input-field{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.label{
+    font-size: 25px;
+    font-weight:100;
+}
+.input{
+    padding:10px;
+}
+input{
+    padding:5px;
+
+}
+
+.submit-button{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.176);
+}
